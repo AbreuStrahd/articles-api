@@ -39,6 +39,10 @@ export class ArtigosServices {
     ]
 
 
+    criar(artigo: Artigo): {
+        this.artigo.push(artigo);
+    } 
+    
     obterTodos(): Artigo[] {
         return this.artigo;
     }
