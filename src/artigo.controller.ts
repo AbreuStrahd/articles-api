@@ -12,7 +12,13 @@ export class ArtigoController{
     obterTodos(): Artigo[] {
         return this.artigosServices.obterTodos();
     }
-
+    
+    @Post()
+    criar(@Body() artigo: Artigo) {
+        this.artigosServices.criar(artigo);
+    }
+    
+    
     @Put()
     alterar(@Body() artigo: Artigo) {
         return this.artigosServices.alterar(artigo)
