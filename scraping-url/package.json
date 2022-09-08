@@ -1,0 +1,19 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+
+  "scripts" : {
+    "dev": "ts-node -T index.ts",
+    "start": "ts-node -T index.ts" 
+  },
+  "devDependencies": {
+    "@types/jsdom": "^20.0.0",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jsdom": "^20.0.0"
+  }
+}
