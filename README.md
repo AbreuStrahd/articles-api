@@ -1,73 +1,17 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# ARTICLES-API
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Este projeto foi criado para o teste de Dev Trainee com o desafio de desenvolver uma API onde se pode criar, alterar e excluir links do seu blog de preferência (o meu foi o devgo.com.br). Utilizei um Webcrawler para retirar os dados de cada artigo para armazenar na API.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+# DESENVOLVIMENTO
 
-## Description
+Para desenvolver a API, eu utilizei o framework NestJS utilizando o Typescript para criar os métodos GET, PUT, POST e DELETE, onde se pode, respectivamente, listar, alterar, criar e deletar um artigo, utilizando o software Insomnia para realizar os teste.
+Para o Webcrawler, foi utilizado o Typescript com um código intuitivo onde se pode alterar para qualquer informação de qualquer site (explicado posteriormente no modo de uso).
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+# MODO DE USO
 
-## Installation
+Primeiramente, caso queira utilizar as informações de um site específico, será necessário utilizar o Scraping (como para a API de artigos, utilizei um arquivo para cada informação retirada, foi feito dois scrapings, um para os títulos, outro para as URLs). Para isso, altere a URL provida no scraping e a posição em que cada informação está no site.
+Após isso, será gerado um arquivo JSON com as informações retiradas do site, será necessário importar e alterar os dados desejados no projeto da API. Após realizar as alterações, será possível executar o "npm run start:dev", onde será hospedado a API na porta localhost:3000, e poderá ser feito os devidos testes.
 
-```bash
-$ npm install
-```
+# CONSIDERAÇÕES FINAIS
 
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+Este foi um desafio extremamente interessante e prazeroso de se construir, especialmente por se tratar de alguns projetos que nunca havia feito antes como o WebCrawler, porém, definitivamente foi algo interessante de se estudar e com certeza irei me aprofundar nesses assuntos utilizando outros métodos e linguagens.
