@@ -4,4 +4,4 @@ Este projeto foi criado para o teste de Dev Trainee com o desafio de desenvolver
 
 # DESENVOLVIMENTO
 
-Parar desenvolver a API, eu utilizei o framework NestJS utilizando o Typescript
+Parar desenvolver a API, eu utilizei o framework NestJS utilizando o Typescript para criar os métodos GET, PUT e DELETE, onde se pode, respectivamente, listar, alterar e deletar um artigo.
