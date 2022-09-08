@@ -5,7 +5,7 @@ Este projeto foi criado para o teste de Dev Trainee com o desafio de desenvolver
 # DESENVOLVIMENTO
 
 Para desenvolver a API, eu utilizei o framework NestJS utilizando o Typescript para criar os métodos GET, PUT, POST e DELETE, onde se pode, respectivamente, listar, alterar, criar e deletar um artigo, utilizando o software Insomnia para realizar os teste.
-Para o Webcrawler, foi utilizado o Typescript com um código intuitivo onde se pode alterar para qualquer informação de qualquer site (explicado posteriormente no modo de uso.
+Para o Webcrawler, foi utilizado o Typescript com um código intuitivo onde se pode alterar para qualquer informação de qualquer site (explicado posteriormente no modo de uso).
 
 # MODO DE USO
 
