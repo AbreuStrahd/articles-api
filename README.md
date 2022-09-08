@@ -10,5 +10,8 @@ Para o Webcrawler, foi utilizado o Typescript com um código intuitivo onde se p
 # MODO DE USO
 
 Primeiramente, caso queira utilizar as informações de um site específico, será necessário utilizar o Scraping (como para a API de artigos, utilizei um arquivo para cada informação retirada, foi feito dois scrapings, um para os títulos, outro para as URLs). Para isso, altere a URL provida no scraping e a posição em que cada informação está no site.
-Após isso, será gerado um arquivo JSON com as informações retiradas do site, será necessário importar e alterar os dados desejados no projeto da API, após realizar as alterações, será possível executar o "npm run start:dev", onde será hospedado a API na porta localhost:3000, e poderá ser feito os devidos testes.
+Após isso, será gerado um arquivo JSON com as informações retiradas do site, será necessário importar e alterar os dados desejados no projeto da API. Após realizar as alterações, será possível executar o "npm run start:dev", onde será hospedado a API na porta localhost:3000, e poderá ser feito os devidos testes.
 
+# CONSIDERAÇÕES FINAIS
+
+Este foi um desafio extremamente interessante e prazeroso de se construir, especialmente por se tratar de alguns projetos que nunca havia feito antes como o WebCrawler, porém, definitivamente foi algo interessante de se estudar e com certeza irei me aprofundar nesses assuntos utilizando outros métodos e linguagens.
